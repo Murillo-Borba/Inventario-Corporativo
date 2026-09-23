@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span>
+        <h1>Inventário Corporativo</h1>
+
+        <input type="text" placeholder="Insira o nome do Item">
+
+        <select name="Tipo de Item" id="listTipoItem">
+            <option value="opcao1">Cpus Completas</option>
+            <option value="opcao2">Componentes de Hardware</option>
+            <option value="opcao3">Periféricos</option>
+            <option value="opcao4">Aparelhos Celulares</option>
+            <option value="opcao5">Notebooks</option>
+            <option value="opcao6">Monitor</option>
+            <option value="opcao7">Cabo</option>
+        </select>
+
+        <ul id="listaItems"></ul>
+        <button class="botaoCadastroItem">Cadastrar</button>
+
+        <script src="RodarListaItens.js"></script>
+    </span>
+</body>
+</html>
